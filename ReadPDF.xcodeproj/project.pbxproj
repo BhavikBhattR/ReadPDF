@@ -11,6 +11,10 @@
 		A955C35D299AB20800EE6201 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A955C35C299AB20800EE6201 /* ContentView.swift */; };
 		A955C35F299AB20900EE6201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A955C35E299AB20900EE6201 /* Assets.xcassets */; };
 		A955C362299AB20900EE6201 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A955C361299AB20900EE6201 /* Preview Assets.xcassets */; };
+		A980B348299AC28A00717A3F /* LatestResume.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A980B347299AC28A00717A3F /* LatestResume.pdf */; };
+		A98677AC299B518400C9DC4A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98677AB299B518400C9DC4A /* MainView.swift */; };
+		A98677AE299B52F600C9DC4A /* PDFUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98677AD299B52F600C9DC4A /* PDFUIView.swift */; };
+		A98677B0299B54E400C9DC4A /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98677AF299B54E400C9DC4A /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		A955C35C299AB20800EE6201 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A955C35E299AB20900EE6201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A955C361299AB20900EE6201 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A980B347299AC28A00717A3F /* LatestResume.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LatestResume.pdf; sourceTree = "<group>"; };
+		A98677AB299B518400C9DC4A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A98677AD299B52F600C9DC4A /* PDFUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFUIView.swift; sourceTree = "<group>"; };
+		A98677AF299B54E400C9DC4A /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				A955C35A299AB20800EE6201 /* ReadPDFApp.swift */,
 				A955C35C299AB20800EE6201 /* ContentView.swift */,
+				A980B347299AC28A00717A3F /* LatestResume.pdf */,
 				A955C35E299AB20900EE6201 /* Assets.xcassets */,
 				A955C360299AB20900EE6201 /* Preview Content */,
+				A98677AB299B518400C9DC4A /* MainView.swift */,
+				A98677AD299B52F600C9DC4A /* PDFUIView.swift */,
+				A98677AF299B54E400C9DC4A /* View.swift */,
 			);
 			path = ReadPDF;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A980B348299AC28A00717A3F /* LatestResume.pdf in Resources */,
 				A955C362299AB20900EE6201 /* Preview Assets.xcassets in Resources */,
 				A955C35F299AB20900EE6201 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A955C35D299AB20800EE6201 /* ContentView.swift in Sources */,
+				A98677AC299B518400C9DC4A /* MainView.swift in Sources */,
+				A98677B0299B54E400C9DC4A /* View.swift in Sources */,
 				A955C35B299AB20800EE6201 /* ReadPDFApp.swift in Sources */,
+				A98677AE299B52F600C9DC4A /* PDFUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

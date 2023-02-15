@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct ReadPDFApp: App {
+    
+    init(){
+        UINavigationBar.appearance().barStyle = UIBarStyle.default
+        UINavigationBar.appearance().tintColor = UIColor.black
+        
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack{
+                MainView()
+                    .preferredColorScheme(.light)
+            }
+            .tint(.black)
         }
     }
 }
